@@ -1,0 +1,5 @@
+n = input('Digite seu nome: ').strip()
+p = n.split()
+u = n.split()
+print('Seu primeiro nome é {} '.format(p[0]))
+print('Seu ultimo nome é {}'.format(p[len(p) - 1]))

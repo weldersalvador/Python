@@ -1,0 +1,5 @@
+f = input('Digite uma frase: ').strip().lower()
+a = f.count('a')
+a2 = f.find('a')
+print('Sua frase tem {} as'.format(a))
+print('A primeira letra a se encontra na posição {}'.format(a2 + 1))

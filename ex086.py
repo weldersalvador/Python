@@ -1,0 +1,10 @@
+matriz = list()
+matriz1 = list()
+for count in range(0 , 9):
+    numero = int(input('Digite o valor para a matriz: '))
+    matriz1.append(numero)
+    matriz.append(matriz1[:])
+    matriz1.clear()
+print(matriz[0] , matriz[1] , matriz[2])
+print(matriz[3], matriz[4], matriz[5])
+print(matriz[6], matriz[7], matriz[8])
